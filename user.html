@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Administrative page</title>
+</head>
+<body>
+<form action="insertUsers.php" method="post">
+	<p>
+    	<label for="User Name">User Name:</label>
+        <input type="text" name="username" id="username">
+    </p>
+    <p>
+    	<label for="Password">Password:</label>
+        <input type="text" name="Password" id="Password">
+    </p>
+    <p>
+    	<label for="Admin">Admin:</label>
+        <input type="text" name="Admin" id="Admin">
+    </p>
+    <input type="submit" value="Record">
+
+</form>
+<form action="deleteUser.php" method="post">
+	<p>
+    	<label for="User Name">User Name:</label>
+        <input type="text" name="username" id="username">
+    </p>
+   
+    <input type="submit" value="Delete a user">
+
+</form>
+
+<form action="display.php" method="post">
+	<p>
+    	<label for="User Name">User Name:</label>
+        <input type="text" name="username" id="username">
+    </p>
+    <input type="submit" value="Display users">
+
+</form>
+
+</body>
+</html>                     
+
